@@ -7,5 +7,5 @@ summary=reviews.groupby('country').points.agg(['count',('points','mean')]).sort_
 summary['points']=summary.points.round(1)
 print(summary)
 
-summary.to_csv(r'C:\Users\william.ashby\github-classroom\CodeYou-Data-Jan2024\wine-reviews-exercise-WEAshby\data\wine_reviews_per_country.csv', index=False)
+summary.to_csv(r'C:\Users\william.ashby\github-classroom\CodeYou-Data-Jan2024\wine-reviews-exercise-WEAshby\wine_reviews_per_country.csv', index=False)
 
